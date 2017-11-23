@@ -1,0 +1,46 @@
+body {
+  background: url("/img/hunter.png") no-repeat center center fixed;
+  background-size: auto;
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+.top {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.top h1 {
+  margin-left: -150px;
+  font-size: 200%;
+}
+.nav {
+  position: relative;
+}
+.nav li {
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: underline;
+}
+.nav li:hover {
+  transform: scale(2);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.flexbox {
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+.content {
+  width: 30%;
+  height: auto;
+}
