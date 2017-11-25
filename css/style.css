@@ -1,5 +1,5 @@
 body {
-  background: url("/img/hunter.png") no-repeat center center fixed;
+  background: url("../img/hunter.png") no-repeat center center fixed;
   background-size: auto;
   background-color: black;
   font-family: 'Roboto Condensed', sans-serif;

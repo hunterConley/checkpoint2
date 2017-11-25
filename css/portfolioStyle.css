@@ -1,12 +1,14 @@
 body {
-  background: url("/img/hunter.png") no-repeat center center fixed;
+  background: url("../img/hunter.png") no-repeat center center fixed;
   background-size: auto;
   background-color: black;
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
 }
-body h1 {
+.container-fluid {
   text-align: center;
   text-decoration: underline;
+}
+.container-fluid h1 {
   font-size: 200%;
 }
