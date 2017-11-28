@@ -38,18 +38,20 @@ body {
   transform: scale(2);
   margin-left: 10px;
   margin-right: 10px;
+  font-style: italic;
 }
 .nav a {
   color: white;
   text-decoration: none;
 }
 .flexbox {
+  width: 50%;
   display: block;
   text-align: center;
   margin: 50px;
 }
 .content {
-  width: 30%;
+  width: 50%;
   height: auto;
 }
 .content img {
