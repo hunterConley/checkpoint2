@@ -6,6 +6,7 @@ body {
   color: white;
   }
 
+
 .container {
   position: fixed;
   width: 500px;
@@ -17,12 +18,7 @@ body {
   background-color: #625F63;
 }
 
-.container h2 {
-  text-align: center;
-  font-size: 20px;
-  padding-top: 10px;
-  text-shadow: 2px 2px black;
-}
+
 
 form {
   padding: 20px;
@@ -36,7 +32,6 @@ form.contact {
 
 form label {
   font-size: 110%;
-  text-shadow: 2px 2px black;
 }
 
 form input {

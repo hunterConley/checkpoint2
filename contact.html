@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Customer Satisfaction Form</title>
+  <title>Contact</title>
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-  crossorigin="anonymous">
+  crossorigin="anonymous"> -->
   <!-- Link in CSS File -->
   <link rel="stylesheet" href="./css/contactStyle.css">
   <!-- Link in Reset File -->
@@ -17,34 +17,35 @@
 </head>
 
 <body>
+
+
   <div class="container">
-      <h2>Contact Hunter</h2>
 
        <!-- Create the Contact Form -->
       <form class="contact" name="contact" action="contact.html" method="post">
 
         <!-- First Name Input -->
-        <label for="firstName"> First Name </label>
+        <label for="firstName"> First Name : </label>
       </br>
-        <input type="text" name="firstName" placeholder="John">
+        <input required type="text" name="firstName" placeholder=" John">
       </br>
 
         <!-- Last Name Input -->
-        <label for="lastName"> Last Name </label>
+        <label for="lastName"> Last Name : </label>
       </br>
-        <input type="text" name="lastName" placeholder="Doe">
+        <input required type="text" name="lastName" placeholder=" Doe">
       </br>
 
       <!-- Email Input -->
-        <label for="email"> Email </label>
+        <label for="email"> Contact Email : </label>
       </br>
-        <input type="email" name="email" placeholder="johndoe@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+        <input required type="email" name="email" placeholder=" johndoe@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
       </br>
 
       <!-- Message Input -->
-        <label for="message"> Message </label>
+        <label for="message"> Message : </label>
       </br>
-        <textarea name="message" rows="5" cols="50" placeholder="Please type your message here!"></textarea>
+        <textarea name="message" rows="5" cols="50" placeholder=" Please type your message here!"></textarea>
       </br>
 
       <!-- Submit input -->
